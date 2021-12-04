@@ -130,9 +130,7 @@ elif work_rate=='Medium/Medium':
 X= tf.expand_dims(np.array(stats_list),1)
 X= tf.reshape(X,[1,37])
 
-# scaler = MinMaxScaler()
 X=scaler.transform(X)
-st.sidebar.write(X)
 
 
 prediction_prob=model.predict(X)
@@ -150,11 +148,11 @@ if "output_value" not in st.session_state:
 
 
 st.sidebar.text_input('Position',
-                      value=prediction,
+                      value='',
                       key='output_value')
-# st.sidebar.button("Check Position",
-#                   on_click=_update_text_box,
-#                   kwargs={"value": prediction })
+st.sidebar.button("Check Position",
+                  on_click=_update_text_box,
+                  kwargs={"value": prediction })
 
 
 
