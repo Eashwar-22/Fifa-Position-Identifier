@@ -27,5 +27,10 @@ users tend to switch in-game positions of players at the start of the game, judg
 The goal of the project is to identify the ideal position of a player by providing the player
 attributes as an input.
 
-### Future Updates
-To provide more than one position as a recommendation based on multi label classification.
+---
+
+### Application
+<img width="1390" alt="Screenshot" src="https://user-images.githubusercontent.com/86509452/144723260-406c4978-ab5f-4941-ab47-c5421283478c.png">
+
+
+
