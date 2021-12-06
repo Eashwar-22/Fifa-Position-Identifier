@@ -5,6 +5,7 @@
 * Identify a player's ideal position on the football pitch based on the individual attributes provided using Tree based Classification.
 * Create a web application for the project, providing the attributes as an input from which the ideal position is printed as the output.
 * Update : [ Click here to open the deployed app](https://fifa22-position-identifier.herokuapp.com/)
+* [ If the link doesn't work click here](https://share.streamlit.io/eashwar-22/fifa-position-identifier/main/app.py)
 
 ### Overview:
 
